@@ -7,11 +7,12 @@ import Ionicons from '@expo/vector-icons/Ionicons'
 import { AntDesign } from '@expo/vector-icons';
 import { FontAwesome6 } from '@expo/vector-icons';
 import voyages from './trips.json'
+import Accueil from './component/Pages/Accueil'
 
 
 const Tab = createBottomTabNavigator();
 
-const Accueil = ({navigation}) => <View><Text>Accueil</Text></View>
+//const Accueil = ({navigation}) => <View><Text>Accueil</Text></View>
 const Recherche = () => <View><Text>Recherche</Text></View>
 const Croisiere = () => <View><Text>Croisière</Text></View>
 export default function App() {
