@@ -3,10 +3,10 @@ import React from 'react'
 import BateauCroisiere from '../BateauCroisiere'
 
 const Accueil = () => {
-  image = 'https://i.pinimg.com/236x/c2/92/a0/c292a0cc664f3966d5f85a97e8708107.jpg'
+  image = 'https://i.pinimg.com/564x/6a/d1/d4/6ad1d44adc0d5adee46fbb300044e2df.jpg'
   return (
     <View style={styles.container}>      
-      <BateauCroisiere uri={image}/>
+      <BateauCroisiere uri={image} nom={"Norwegian"}/>
 
     </View>
   )
